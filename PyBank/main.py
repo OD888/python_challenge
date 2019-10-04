@@ -1,3 +1,11 @@
+# Marc Omar Haddad
+# October 4, 2019
+# UNCC Data Analytics Bootcamp
+# Python Challenge: PyBank
+
+# This program reads and analyzes financial data from a csv file and writes a text file displaying a report that summarizes the data
+
+
 import os
 import csv
 
