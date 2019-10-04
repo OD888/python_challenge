@@ -48,7 +48,7 @@ def main():
                     inc_max = cur_change
                     # Records where in the list a change in inc_max occured, since both lists are ordered the same way
                     date_inc_max = date_list[i]
-                # Same as above, except for max decrease
+                # Same as above, except for max decrease and '<' replaced by '>'
                 if dec_max == 0 or dec_max > cur_change:
                     dec_max = cur_change
                     date_dec_max = date_list[i]        
